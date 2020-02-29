@@ -18,7 +18,6 @@ my %WriteMakefileArgs = (
   "NAME" => "Data::Object::Try",
   "PREREQ_PM" => {
     "Moo" => 0,
-    "Test::Auto" => "0.05",
     "Try::Tiny" => "0.30",
     "routines" => 0,
     "strict" => 0,
@@ -32,7 +31,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "2.00",
+  "VERSION" => "2.01",
   "test" => {
     "TESTS" => "t/*.t"
   }

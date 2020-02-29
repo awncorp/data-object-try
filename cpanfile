@@ -1,5 +1,4 @@
 requires "Moo" => "0";
-requires "Test::Auto" => "0.05";
 requires "Try::Tiny" => "0.30";
 requires "perl" => "5.014";
 requires "routines" => "0";
