@@ -1,1 +1,11 @@
 Changelog for Data-Object-Try
+
+2.01 2020-02-29T04:40:08
+ - Added release updates
+ - Updated documentation
+ - Fix documentation and non-testing prereqs
+
+2.00 2020-02-29T04:21:02
+ - Built release version 2.00
+ - Added release updates
+ - Initial commit

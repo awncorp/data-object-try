@@ -99,12 +99,8 @@ This package implements the following methods:
 The call method takes a method name or coderef, registers it as the tryable
 routine, and returns the object. When invoked, the callback will received an
 `invocant` if one was provided to the constructor, the default `arguments` if
-  is $result->\[4\], 4;
-  is $result->\[5\], 5;
 any were provided to the constructor, and whatever arguments were provided by
 the invocant.
-  is $result->\[4\], 4;
-  is $result->\[5\], 5;
 
 - call example #1
 
