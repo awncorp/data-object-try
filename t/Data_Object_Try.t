@@ -98,12 +98,8 @@ This package provides an object-oriented interface for performing complex try/ca
 The call method takes a method name or coderef, registers it as the tryable
 routine, and returns the object. When invoked, the callback will received an
 C<invocant> if one was provided to the constructor, the default C<arguments> if
-  is $result->[4], 4;
-  is $result->[5], 5;
 any were provided to the constructor, and whatever arguments were provided by
 the invocant.
-  is $result->[4], 4;
-  is $result->[5], 5;
 
 =signature call
 
